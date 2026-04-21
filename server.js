@@ -175,7 +175,7 @@ async function transcribeAudio(audioBuffer, mimetype, filename) {
   // Step 1b: Request transcription with speaker diarization
   const transcriptRequest = JSON.stringify({
     audio_url: uploadUrl,
-    speaker_labels: true,
+    speaker_labels: true, speech_models: ["universal-2"],
   });
 
   const transcriptResponse = await httpsRequest(
