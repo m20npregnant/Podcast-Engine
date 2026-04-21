@@ -1,0 +1,12 @@
+{
+  "name": "podcast-intelligence-engine",
+  "version": "1.0.0",
+  "description": "Upload podcast audio, transcribe, and get AI-powered content suggestions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
