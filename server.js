@@ -350,7 +350,7 @@ const FRONTEND_HTML = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Podcast Intelligence Engine</title>
+<title>Wisely Working</title>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -977,7 +977,7 @@ const FRONTEND_HTML = `<!DOCTYPE html>
 
 <div class="container">
   <div class="header">
-    <div class="header-brand">Podcast Intelligence Engine</div>
+    <div class="header-brand">Wisely Working</div>
     <h1>Upload. Transcribe. Analyze.</h1>
     <p>Drop your podcast audio file. The engine transcribes it, identifies speakers, segments topics, and suggests mid-form cuts + reels with hooks — all in one place.</p>
   </div>
@@ -1512,7 +1512,7 @@ const server = http.createServer(async (req, res) => {
 server.listen(PORT, () => {
   console.log('');
   console.log('╔══════════════════════════════════════════════════╗');
-  console.log('║   PODCAST INTELLIGENCE ENGINE                   ║');
+  console.log('║   Wisely Working                   ║');
   console.log('╠══════════════════════════════════════════════════╣');
   console.log('║                                                  ║');
   console.log(`║   Running at: http://localhost:${PORT}              ║`);
